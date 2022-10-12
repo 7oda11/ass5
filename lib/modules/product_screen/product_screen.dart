@@ -2,7 +2,6 @@ import 'package:ass5/shared/component/component.dart';
 import 'package:flutter/material.dart';
 
 class DetailsScreen extends StatelessWidget {
-  var MainColor = Colors.green;
 
   @override
   Widget build(BuildContext context) {
@@ -159,7 +158,7 @@ class DetailsScreen extends StatelessWidget {
                         style: TextStyle(
                             fontWeight: FontWeight.bold,
                             fontSize: 25,
-                            color: MainColor),
+                            color: Colors.green),
                       )
                     ],
                   ),
@@ -168,7 +167,7 @@ class DetailsScreen extends StatelessWidget {
                   ),
                   defaultButton(
                       width: 170,
-                      background: MainColor,
+                      background: Colors.green,
                       text: "ADD",
                       function: (){},
                   ),
